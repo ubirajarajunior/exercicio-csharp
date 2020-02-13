@@ -7,13 +7,13 @@ namespace ConsoleApp2.Entidades
     class Continente
     {
         public string Nome { get; set; }
-        public double Extensao { get; set; }
+        public double Qtd_Pais { get; set; }
         public List<Pais> Paises { get; set; } = new List<Pais>();
 
-        public Continente(string nome, double extensao, int qtd_Pais)
+        public Continente(string nome, double qtd_pais)
         {
             Nome = nome;
-            Extensao = extensao;
+            Qtd_Pais = qtd_pais;
            
         }
 
